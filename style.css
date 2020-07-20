@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width:100vw;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+
+.fa-arrow-left{
+    position: absolute;
+    top:50%;
+    left: 10px;
+color:white;
+z-index: 1;
+transform: translateY(-50%);
+font-size: 40px;
+}
+
+.fa-arrow-right{
+    color:white;
+    position: absolute;
+    top:50%;
+    right: 10px;
+    z-index: 1;
+    transform: translateY(-50%);
+    font-size: 40px;
+
+}
+.fa{
+    cursor: pointer;
+}
+.fa:hover{
+    color:rgb(194, 178, 178);
+}
